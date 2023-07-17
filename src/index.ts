@@ -1,6 +1,7 @@
 import { Controller } from '@hotwired/stimulus'
 import Chart from 'chart.js/auto'
 import ChartDataLabels from 'chartjs-plugin-datalabels';
+import Trendline from 'chartjs-plugin-trendline`;
 
 export default class extends Controller {
   // @ts-ignore
@@ -34,7 +35,7 @@ export default class extends Controller {
       type: this.typeValue, // @ts-ignore
       data: this.chartData, // @ts-ignore
       options: this.chartOptions,
-      plugins: [ChartDataLabels]
+      plugins: [ChartDataLabels, Trendline]
     })
   }
 
