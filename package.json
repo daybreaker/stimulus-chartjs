@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "chart.js": "^4.1.1",
-    "chartjs-plugin-datalabels": "^2.2.0"
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "chartjs-plugin-trendline": "^2.0.3"
   }
 }
